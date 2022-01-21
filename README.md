@@ -2,7 +2,8 @@
 
 Built a tic tac toe game
 
-# Using
+Created the app using React and create-react-app
 
-- Create-react-app
+# Utilized
+
 - Routers
