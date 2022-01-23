@@ -1,20 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.homepage {
+  text-align: center;
+}
+
+.playButton {
+  text-transform: capitalize;
+  color: whitesmoke;
+  border: 2px solid rgb(226, 22, 216);
+  padding: 0.5vh 1vh 0.5vh 1vh;
+  cursor: pointer;
+  font-size: 8vh;
+  background: rgb(226, 22, 216);
+  display: inline-block;
+  position: relative;
+  top: 42vh;
+  z-index: 2;
+}
+
+.illusion {
+  display: block;
+  position: relative;
+  top: -15vh;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 800px;
+  z-index: 1;
+}
+
+.nav-center {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 3;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 2vh 0;
   background-color: #8595d8;
-  width: 100vw;
-  text-align: center;
 }
 
 li {
   display: inline;
-  font-size: 7vh;
-  margin: 0 auto;
 }
 
 a {
   text-decoration: none;
   color: white;
-  padding: 2vw;
+  padding: 0 4vh 0 4vh;
+  font-size: 7vh;
 }
+
+/* BOARD */
