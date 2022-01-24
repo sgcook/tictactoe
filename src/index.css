@@ -58,4 +58,23 @@ a {
   font-size: 7vh;
 }
 
-/* BOARD */
+.playTitle {
+  text-align: center;
+}
+
+.jumpLi {
+  display: block;
+}
+
+.jumpButton {
+  width: 18vh;
+  background-color: #bdc7f2;
+  font-size: 2.5vh;
+  border-radius: 14%;
+  position: relative;
+  right: -5vh;
+}
+
+.text {
+  text-align: center;
+}
