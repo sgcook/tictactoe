@@ -5,10 +5,16 @@ body {
 }
 
 .homepage {
-  text-align: center;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 100vw;
+  top: -8vh;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.playButton {
+.homepage .playButton {
   text-transform: capitalize;
   color: whitesmoke;
   border: 2px solid rgb(226, 22, 216);
@@ -17,18 +23,17 @@ body {
   font-size: 8vh;
   background: rgb(226, 22, 216);
   display: inline-block;
-  position: relative;
-  top: 42vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   z-index: 2;
 }
 
-.illusion {
-  display: block;
-  position: relative;
-  top: -15vh;
-  margin: 0 auto;
-  width: 100vw;
-  max-width: 800px;
+.homepage .illusion {
+  width: 100%;
+  height: auto;
   z-index: 1;
 }
 

@@ -14,3 +14,7 @@ Created the app using React, create-react-app, and this tutorial: https://www.yo
 
 - Used Routes with a Navbar
 - Changed some of the styling like border-radius, colors, and alignments.
+
+## Gotchas:
+
+-centering image and button within a div
