@@ -17,5 +17,5 @@ Created the app using React, create-react-app, and this tutorial: https://www.yo
 
 ## Gotchas:
 
--centering image and button within a div
--adding "homepage" to package.json caused "/" route to not load initially.
+- centering image and button within a div
+- adding "homepage" to package.json caused "/" route to not load initially.
